@@ -38,4 +38,6 @@ Xampp
 MariaDB/MySQL
 <br>
 SQL
+<br>
+AJAX
 </p>
