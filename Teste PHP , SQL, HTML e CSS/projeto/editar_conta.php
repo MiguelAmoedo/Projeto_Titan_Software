@@ -1,5 +1,5 @@
 <?php
-// Inclua o arquivo de conexão com o banco de dados
+
 include 'conexao.php';
 
 // Verifique se o ID da conta a pagar e o novo valor foram fornecidos via GET
@@ -7,7 +7,7 @@ if (isset($_GET['id']) && isset($_GET['novoValor'])) {
     $idContaPagar = mysqli_real_escape_string($conn, $_GET['id']);
     $novoValor = mysqli_real_escape_string($conn, $_GET['novoValor']);
 
-    // Use instrução preparada para atualizar o valor da conta no banco de dados
+    // instrução preparada para atualizar o valor da conta no banco de dados
     $stmt = $conn->prepare("UPDATE tbl_conta_pagar SET valor = ? WHERE id_conta_pagar = ?");
     $stmt->bind_param("di", $novoValor, $idContaPagar);
 

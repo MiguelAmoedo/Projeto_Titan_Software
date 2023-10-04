@@ -1,5 +1,5 @@
 <?php
-//aui será o script de conexão com banco
+//script de conexão com banco
 $servername = "localhost";
 $database = "pagamento";
 $username = "admin";

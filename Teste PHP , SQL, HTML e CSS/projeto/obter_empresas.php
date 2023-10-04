@@ -1,5 +1,5 @@
 <?php
-// Conectar ao banco de dados
+
 include 'conexao.php';
 
 // Query para obter todas as empresas e suas contas a pagar

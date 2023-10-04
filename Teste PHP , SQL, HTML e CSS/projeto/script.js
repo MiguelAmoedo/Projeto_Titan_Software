@@ -178,7 +178,7 @@ async function preencherCamposConta(idContaPagar) {
 }
 
 
-// Verificar se há um ID de conta na URL e preencher os campos se existir
+// Verificar se há um ID de conta na URL e preencher os campos se existirr
 if (idContaPagar) {
     preencherCamposConta(idContaPagar);
 }

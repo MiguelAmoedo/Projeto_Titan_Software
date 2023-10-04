@@ -1,12 +1,12 @@
 <?php
-// Inclua o arquivo de conexão com o banco de dados
+
 include 'conexao.php';
 
 // Verifique se o ID da conta a pagar foi fornecido via GET
 if (isset($_GET['id'])) {
     $idContaPagar = mysqli_real_escape_string($conn, $_GET['id']);
 
-    // Use instrução preparada para excluir a conta do banco de dados
+    //  instrução preparada para excluir a conta do banco de dados
     $stmt = $conn->prepare("DELETE FROM tbl_conta_pagar WHERE id_conta_pagar = ?");
     $stmt->bind_param("i", $idContaPagar);
 

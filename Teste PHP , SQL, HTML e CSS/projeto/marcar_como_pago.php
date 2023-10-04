@@ -1,5 +1,5 @@
 <?php
-// Inclua o arquivo de conexão com o banco de dados
+
 include 'conexao.php';
 
 // Verifique se o ID da conta a pagar e o novo status foram fornecidos via GET
