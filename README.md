@@ -28,7 +28,6 @@ HTML
 <br>
 Css
 <br>
-<br>
 JavaScript (es6)
 <br>
 PHP
