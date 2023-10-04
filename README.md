@@ -19,6 +19,8 @@ Email: miguelbombs@gmail.com
 </h4>
 <br>
 
+<p>Arquivo inicial: index.html<p>
+
 <p>
 Tecnologias usadas:
 <br>
