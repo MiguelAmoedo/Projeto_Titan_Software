@@ -25,6 +25,7 @@ Tecnologias usadas:
 HTML
 <br>
 Css
+<br>
 JavaScript (es6)
 <br>
 PHP
