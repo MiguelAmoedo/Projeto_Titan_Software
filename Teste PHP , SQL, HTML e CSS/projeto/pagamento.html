@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/estyle.css" />
+    <title>Adicionar Conta a Pagar</title>
+  </head>
+
+  <body>
+    <h1>Adicionar Conta a Pagar</h1>
+
+    <form action="processar_formulario.php" method="post">
+      <!-- Campo oculto para armazenar o ID da conta a pagar -->
+      <input type="hidden" id="idContaPagar" name="idContaPagar" />
+
+      <label for="id_empresa">Empresa:</label>
+      <select id="empresa" name="empresa">
+        <option value="">Selecione uma empresa</option>
+      </select>
+
+      <br /><br />
+
+      <label for="data">Data a ser Pago:</label>
+      <input type="date" id="data" name="data" required />
+      <br /><br />
+
+      <label for="valor">Valor a Ser Pago:</label>
+      <input type="number" id="valor" name="valor" step="0.01" required />
+      <br /><br />
+     
+
+      <input type="submit" value="Inserir / Editar" />
+    </form>
+    <a href="editar.html">Visualizar empresas inseridas</a>
+    <script src="script.js"></script>
+  </body>
+</html>
