@@ -5,8 +5,10 @@ Atividades PHP E SQL
 <h4>
 Dev Full Stack:
 Miguel Becil Amoedo da silva
+Telefone: (92) 9 9208 7325
+Email: miguelbombs@gmail.com
 </h4>
-<br>
+
 <h4>
 Likedin:
 Miguel Amoedo
