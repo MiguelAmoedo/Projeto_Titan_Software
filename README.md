@@ -2,19 +2,19 @@
 Atividades PHP E SQL
 </h1>
 <br>
-<h3>
+<h4>
 Dev Full Stack:
 Miguel Becil Amoedo da silva
-</h3>
+</h4>
 <br>
-<h3>
+<h4>
 Likedin:
 Miguel Amoedo
-</h3>
+</h4>
 <br>
 
 <p>
-Tecnologias usadas
+Tecnologias usadas:
 <br>
 HTML
 <br>
