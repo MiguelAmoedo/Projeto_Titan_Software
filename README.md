@@ -14,6 +14,7 @@ Miguel Amoedo
 </h4>
 <h4> Contato: <br>
 Telefone: (92) 9 9208 7325
+<br>
 Email: miguelbombs@gmail.com
 </h4>
 <br>
