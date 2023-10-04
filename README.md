@@ -20,7 +20,7 @@ Email: miguelbombs@gmail.com
 <br>
 
 <p>Arquivo inicial: index.html<p>
-
+<br>
 <p>
 Tecnologias usadas:
 <br>
